@@ -4,7 +4,7 @@
   "description": "",
   "main": "temp.js",
   "scripts": {
-    "start" : "temp.js",
+    "start": "node temp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/asutoss/function1#readme",
   "dependencies": {
+    "axios": "^0.19.1",
+    "express": "^4.17.1",
+    "geo-distance": "^0.2.0",
     "i": "^0.3.6"
   }
 }
